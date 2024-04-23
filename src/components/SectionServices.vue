@@ -25,7 +25,9 @@ export default {
                 <div class="row text-center">
                     <div class="col-3">
                         <div class="card buildings">
-                            <div class="card-img-top m-auto"></div>
+                            <div class="img m-auto">
+                                <font-awesome-icon class="icon narrow" :icon="['fas','building']" />
+                            </div>
                             <div class="card-body">
                                 <h4 class="card-title">Buildings</h4>
                                 <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
@@ -34,7 +36,9 @@ export default {
                     </div>
                     <div class="col-3">
                         <div class="card renovate">
-                            <div class="card-img-top m-auto"></div>
+                            <div class="img m-auto">
+                                <font-awesome-icon class="icon" :icon="['fas','rotate']" />
+                            </div>
                             <div class="card-body">
                                 <h4 class="card-title">Renovate</h4>
                                 <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
@@ -43,7 +47,9 @@ export default {
                     </div>
                     <div class="col-3">
                         <div class="card construct">
-                            <div class="card-img-top m-auto"></div>
+                            <div class="img m-auto">
+                                <font-awesome-icon class="icon" :icon="['fas','house']" />
+                            </div>
                             <div class="card-body">
                                 <h4 class="card-title">Construct</h4>
                                 <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
@@ -52,7 +58,9 @@ export default {
                     </div>
                     <div class="col-3">
                         <div class="card exclusive">
-                            <div class="card-img-top m-auto"></div>
+                            <div class="img m-auto">
+                                <font-awesome-icon class="icon" :icon="['fas','truck']" />
+                            </div>
                             <div class="card-body">
                                 <h4 class="card-title">Exclusive</h4>
                                 <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>

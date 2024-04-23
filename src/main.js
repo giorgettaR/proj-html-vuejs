@@ -9,9 +9,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
 // import icons
-// import { faBuilding, faRotate, faHouseChimney, faTruck } from '@fortawesome/free-solid-svg-icons'
+import { faBuilding, faRotate, faHouse, faTruck, faUsers, faLightbulb } from '@fortawesome/free-solid-svg-icons'
+import { faSun } from '@fortawesome/free-regular-svg-icons'
 
-// library.add(faBuilding, faRotate, faHouseChimney, faTruck)
+library.add(faBuilding, faRotate, faHouse, faTruck, faSun, faUsers, faLightbulb)
 const app = createApp(App)
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.mount('#app')

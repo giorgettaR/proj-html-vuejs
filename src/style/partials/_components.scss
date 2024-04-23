@@ -47,39 +47,34 @@ section.services {
         background-color: $bg-color-cards;
         border: 0;
 
+        .img {
+            margin-top: 30px !important;
+            color: #808080;
+            border-radius: 50px;
+            box-shadow: 0 0 3px #808080;
+            position: relative;
+            width: 70px;
+            aspect-ratio: 1/1;
+            
+            .icon {
+                font-size: 25px;
+                position: absolute;
+                top: 22px;
+                left: 21px;
+            }
+
+            .icon.narrow {
+                left: 25px;
+            }
+        }
+        
+        
         p {
             color: #808080;
             font-size: 13px;
             line-height: 25px;
         }
-        
-        .card-img-top {
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            width: 40px;
-            height: 40px;
-            margin-top: 25px !important;
-        }
     }
-
-    .buildings .card-img-top {
-        background-image: url(/public/building-regular.svg);
-
-    }
-    .renovate .card-img-top {
-        background-image: url(/public/arrows-rotate-solid.svg);
-
-    }
-    .construct .card-img-top {
-        background-image: url(/public/house-chimney-solid.svg);
-
-    }
-    .exclusive .card-img-top {
-        background-image: url(/public/truck-solid.svg);
-
-    }
-    
 }
 
 // STYLE SECTION PROJECTS
@@ -102,3 +97,133 @@ section.services {
         background-image: url(/public/project3.jpg);
     }
 }
+
+// STYLE SECTION VALUES
+
+section.values {
+    background-color: $bg-color-cards;
+
+    .card {
+        background-color: $bg-color-cards;
+
+        border: 0;
+
+        .img {
+            margin-bottom: -20px !important;
+            color: white;
+            border-radius: 50px;
+            box-shadow: 0 0 3px #808080;
+            position: relative;
+            width: 100px;
+            aspect-ratio: 1/1;
+            
+            .icon {
+                font-size: 50px;
+                position: absolute;
+            }
+        }
+
+        .img.house {
+            background-color: #21a6b5;
+            .icon {
+                left: 23px;
+                top: 21px;
+            }
+        }
+        .img.sun {
+            background-color: #55328b;
+            .icon {
+                left: 26px;
+                top: 24px;
+            }
+        }
+        .img.users {
+            background-color: #fe813e;
+            .icon {
+                left: 20px;
+                top: 26px;
+            }
+        }
+        .img.lightbulb {
+            background-color:  #84cb01;
+            .icon {
+                left: 30px;
+                top: 26px;
+            }
+        }
+        
+        h6 {
+            font-size: 16px;
+        }
+        hr {
+            width: 15px;
+            border-top: 2px solid #575757;
+        }
+        p {
+            color: #808080;
+            font-size: 13px;
+            line-height: 25px;
+        }
+    }
+}
+
+// STYLE SECTION NEWS
+
+section.news {
+    background-color: $bg-color-sections;
+
+    .card {
+        border: 0;
+        h6.card-subtitle {
+            font-size: 16px;
+        }
+        .card-img-top {
+            border: 0;
+            width: 100%;
+            height: 170px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        .card-img-top.first {
+            background-image: url(/public/blog1.jpg);
+        }
+        .card-img-top.second {
+            background-image: url(/public/blog2.jpg);
+        }
+        .card-img-top.third {
+            background-image: url(/public/blog3.jpg);
+        }
+    }
+}
+
+// STYLE SECTION PARTNERS
+
+section.partners {
+    .content {
+        .partner {
+            width: calc(100% / 5);
+            height: 150px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .partner.first {
+            background-image: url(/public/home-logo1.png);
+        }
+        .partner.second {
+            background-image: url(/public/home-logo2.png);
+        }
+        .partner.third {
+            background-image: url(/public/home-logo3.png);
+        }
+        .partner.forth {
+            background-image: url(/public/home-logo4.png);
+        }
+        .partner.fifth {
+            background-image: url(/public/home-logo5.png);
+        }
+    }
+}
+
