@@ -5,6 +5,7 @@
 // STYLE HEADER
 
 header {
+    background-color: white;
 
     a {
         color: inherit;
@@ -37,4 +38,51 @@ section.hero.img {
 
 section.hero.banner {
     background-color: $color-theme;
+}
+
+// STYLE SECTION SERVICES
+
+section.services {
+    head {
+        p {
+            font-size: 16px;
+        }
+    }
+    .card {
+        background-color: $bg-color-cards;
+        border: 0;
+
+        p {
+            color: #808080;
+            font-size: 13px;
+            line-height: 25px;
+        }
+        
+        .card-img-top {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: 40px;
+            height: 40px;
+            margin-top: 25px !important;
+        }
+    }
+
+    .buildings .card-img-top {
+        background-image: url(/public/building-regular.svg);
+
+    }
+    .renovate .card-img-top {
+        background-image: url(/public/arrows-rotate-solid.svg);
+
+    }
+    .construct .card-img-top {
+        background-image: url(/public/house-chimney-solid.svg);
+
+    }
+    .exclusive .card-img-top {
+        background-image: url(/public/truck-solid.svg);
+
+    }
+    
 }

@@ -23,7 +23,7 @@ export default {
                     :class="{ button : link.isButton, active : link.isActive }"
                     >
     <!-- mettere freccetta che indica il link attivo -->
-                    <a href="{{ link.href }}">{{ link.text }}</a> 
+                    <a :href="link.href">{{ link.text }}</a> 
                     </li>
                 </ul>
             </div>

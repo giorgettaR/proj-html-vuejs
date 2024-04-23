@@ -4,11 +4,14 @@
 
 header {
     position: fixed;
+    z-index: 2;
     width: 100vw;
-    height: 80px;
+    height: 130px;
+     .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+     }
 
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
 
 // LAYOUT MAIN

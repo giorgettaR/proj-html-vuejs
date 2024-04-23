@@ -6,3 +6,7 @@ export const menù = reactive({
     menùHeader: data.menùHeader,
 })
 
+export const services = reactive({
+    services: data.services
+
+})

@@ -36,5 +36,12 @@
       "button": false,
       "href": ""
     }
+  ],
+  "services": [
+    {
+      "iconPath": "/arrows.rotate-solid.svg",
+      "title": "Renovate",
+      "text": "Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur."
+    }
   ]
 }
