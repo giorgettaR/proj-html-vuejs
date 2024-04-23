@@ -26,15 +26,18 @@ export default {
 </script>
 
 <template>
-    <SectionHero />
-    <SectionServices />
-    <SectionNumbers />
-    <SectionProjects />
-    <SectionValues />
-    <SectionOwnersQuotes />
-    <SectionNews />
-    <SectionPartners />
-    <SectionFreeQuote />
+    <main>
+        <SectionHero />
+        <SectionServices />
+        <SectionNumbers />
+        <SectionProjects />
+        <SectionValues />
+        <SectionOwnersQuotes />
+        <SectionNews />
+        <SectionPartners />
+        <SectionFreeQuote />
+    </main>
+    
 </template>
 
 <style lang="scss">

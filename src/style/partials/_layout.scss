@@ -3,8 +3,42 @@
 // LAYOUT HEADER
 
 header {
-    .logo,
-    ul {
-        height: 80px;
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+// LAYOUT MAIN
+
+main {
+
+padding-top: 130px;
+
+
+    section.hero.img {
+        height: calc(100vh - 282px);
+    
+        .container {
+            height: 100%;
+        }
+    }
+    
+    section.hero.banner {
+        height: 130px;
+    
+        .container {
+            height: 100%;
+            position: relative;
+    
+            button {
+                position: absolute;
+                bottom: -12px;
+            }
+        }
+    
+    
     }
 }

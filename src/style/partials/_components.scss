@@ -1,8 +1,40 @@
 @use './mixins' as *;
+@use './variables' as *;
+
 
 // STYLE HEADER
 
-header a {
-    color: inherit;
-    text-decoration: none;
+header {
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    li.active{
+        color: $color-theme;
+    }
+}
+
+// STYLE HERO
+
+section.hero.img {
+    background-image: $bg-heroImg;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    color: white;
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h5 {
+        color: $color-theme;
+    }
+}
+
+section.hero.banner {
+    background-color: $color-theme;
 }

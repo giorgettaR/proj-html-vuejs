@@ -1,7 +1,7 @@
 <script>
 import HeaderApp from './components/HeaderApp.vue';
 import MainApp from './components/MainApp.vue';
-import FooterApp from './components/MainApp.vue';
+import FooterApp from './components/FooterApp.vue';
 
 import { menù } from './store.js';
 
