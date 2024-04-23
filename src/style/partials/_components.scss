@@ -43,11 +43,6 @@ section.hero.banner {
 // STYLE SECTION SERVICES
 
 section.services {
-    head {
-        p {
-            font-size: 16px;
-        }
-    }
     .card {
         background-color: $bg-color-cards;
         border: 0;
@@ -85,4 +80,25 @@ section.services {
 
     }
     
+}
+
+// STYLE SECTION PROJECTS
+
+.projects {
+    .project {
+        aspect-ratio: 1/1;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .project.first {
+        background-image: url(/public/project1.jpg);
+    }
+    .project.second {
+        background-image: url(/public/project2.jpg);
+    }
+    .project.third {
+        background-image: url(/public/project3.jpg);
+    }
 }
