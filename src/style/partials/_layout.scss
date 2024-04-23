@@ -1,0 +1,10 @@
+@use './variables' as *;
+
+// LAYOUT HEADER
+
+header {
+    .logo,
+    ul {
+        height: 80px;
+    }
+}

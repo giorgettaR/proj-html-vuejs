@@ -1,0 +1,25 @@
+@use './variables' as *;
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* GENERAL SETTINGS */
+
+/* DEBUG */
+
+.debug .container {
+border: dashed black 1px;
+}
+
+.debug .container [class^=col] {
+border: dashed black 1px;
+}

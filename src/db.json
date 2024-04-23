@@ -1,0 +1,40 @@
+{
+  "menùHeader": [
+    {
+      "text": "HOME",
+      "isActive": true,
+      "isButton": false,
+      "href": ""
+    },
+    {
+      "text": "ABOUT",
+      "isActive": false,
+      "isButton": false,
+      "href": ""
+    },
+    {
+      "text": "SERVICES",
+      "isActive": false,
+      "isButton": false,
+      "href": ""
+    },
+    {
+      "text": "WORK",
+      "isActive": false,
+      "isButton": false,
+      "href": ""
+    },
+    {
+      "text": "ARTICLES",
+      "isActive": false,
+      "isButton": false,
+      "href": ""
+    },
+    {
+      "text": "GET QUOTE",
+      "isActive": false,
+      "button": false,
+      "href": ""
+    }
+  ]
+}
