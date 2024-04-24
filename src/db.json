@@ -43,5 +43,21 @@
       "title": "Renovate",
       "text": "Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur."
     }
-  ]
+  ],
+  "menùFooter": 
+    {
+      "tweet": "Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+      "contacts":
+      {
+        "corporateAddress1": "1600 Amphitheatre Parkway",
+        "corporateAddress2": "London WC1 1BA",
+        "residentialAddress1": "9521 Broadsberry Avenue",
+        "residentialAddress2": "Paddington RC7 9ZA",
+        "telephone": "1.800.458.556 / 1.800.532.2112",
+        "email": "info@your-domain.com",
+        "openingHours1": "Monday - Friday: 9:00 AM - 6:00 PM",
+        "openingHours2": "Saturady - Sunday: 9:00 AM - 12:00 PM"
+      }
+    }
+  
 }

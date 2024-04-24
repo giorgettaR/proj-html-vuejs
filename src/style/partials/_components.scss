@@ -307,3 +307,25 @@ section.partners {
     }
 }
 
+// STYLE SECTION FOOTER
+
+footer {
+    background-color: #1f1f1f;
+    color: #696868;
+
+    h6 {
+    color: $color-theme;
+    font-weight: bold;
+    }
+
+    li {
+    position: relative;
+    font-size: 17px;
+    }
+
+    .icon {
+    position: absolute;
+    left: -35px;
+    top: 10px
+    }
+}
