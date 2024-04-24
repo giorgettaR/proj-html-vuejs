@@ -77,6 +77,47 @@ section.services {
     }
 }
 
+// STYLE SECTION NUMBERS
+
+section.numbers {
+    position: relative;
+    overflow: hidden;
+    h1 {
+        font-size: 50px;
+        color: $color-theme;
+        .icon {
+            font-size: 55px;
+        }
+    }
+    h6 {
+        font-size: 15px;
+        white-space: nowrap;
+        color: white;
+    }
+
+    background-image: url(/public/numbers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .curve {
+        position: absolute;
+        height: 250px;
+        background-color: white;
+        z-index: 2;
+        width: 120%;
+        border-radius: 40%;
+        top: -150px;
+        left: -10%;
+
+    }
+    .curve.bot {
+        position: absolute;
+        border-radius: 40%;
+        top: 400px;
+    }
+}
+
 // STYLE SECTION PROJECTS
 
 .projects {
@@ -164,6 +205,45 @@ section.values {
             font-size: 13px;
             line-height: 25px;
         }
+    }
+}
+
+// STYLE SECTION OWNERSQUOTE
+
+section.ownersquotes {
+    position: relative;
+    overflow: hidden;
+    color: white;
+
+    p {
+        font-size: 14px;
+        font-style: oblique;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+
+    background-image: url(/public/owners.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .curve {
+        position: absolute;
+        height: 250px;
+        background-color: white;
+        z-index: 2;
+        width: 120%;
+        border-radius: 40%;
+        top: -150px;
+        left: -10%;
+
+    }
+    .curve.bot {
+        position: absolute;
+        border-radius: 40%;
+        top: 400px;
     }
 }
 

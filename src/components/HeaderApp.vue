@@ -17,7 +17,7 @@ export default {
                 <div class="logo col-auto">
                     <img src="/construction_logo.png" alt="">
                 </div>
-                <ul class="menù col-auto d-flex align-items-center justify-content-between">
+                <ul class="menù col-auto d-flex align-items-center justify-content-between flex-nowrap">
                     <li v-for="link in this.arrayMenù"
                     class="p-4"
                     :class="{ button : link.isButton, active : link.isActive }"

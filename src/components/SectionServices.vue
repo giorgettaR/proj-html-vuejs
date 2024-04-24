@@ -26,7 +26,7 @@ export default {
                     <div class="col-3">
                         <div class="card buildings">
                             <div class="img m-auto">
-                                <font-awesome-icon class="icon narrow" :icon="['fas','building']" />
+                                <font-awesome-icon class="icon narrow" :icon="['far','building']" />
                             </div>
                             <div class="card-body">
                                 <h4 class="card-title">Buildings</h4>
