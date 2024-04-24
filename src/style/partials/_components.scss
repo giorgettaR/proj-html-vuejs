@@ -12,7 +12,11 @@ header {
         text-decoration: none;
     }
 
-    li.active{
+    a.active{
+        color: $color-theme;
+    }
+
+    li:hover {
         color: $color-theme;
     }
 
@@ -42,6 +46,9 @@ section.hero.img {
 
 section.hero.banner {
     background-color: $color-theme;
+    button {
+        font-size: 15px;
+    }
 }
 
 // STYLE SECTION SERVICES
@@ -50,6 +57,7 @@ section.services {
     .card {
         background-color: $bg-color-cards;
         border: 0;
+
 
         .img {
             margin-top: 30px !important;
@@ -72,11 +80,31 @@ section.services {
             }
         }
         
-        
         p {
             color: #808080;
             font-size: 13px;
             line-height: 25px;
+        }
+
+        &:hover .hoverCard {
+                display: block !important;
+        }
+    }
+
+    .hoverCard {
+        background-color: $color-theme;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+
+        button {
+            background-color: #f8dd85;
+            &:hover {
+                background-color: #333333;
+                color: white;
+                transition: 0.3s;
+            }
         }
     }
 }
@@ -149,10 +177,21 @@ section.values {
     background-color: $bg-color-cards;
 
     .card {
-        background-color: $bg-color-cards;
-
+        background-color: inherit;
         border: 0;
 
+        &:hover {
+            .img.house,
+            .img.sun,
+            .img.users,
+            .img.lightbulb {
+                    background-color: $color-theme;
+
+            }
+            h6 {
+                color: $color-theme;
+            }
+        }
         .img {
             margin-bottom: -20px !important;
             color: white;
@@ -166,6 +205,8 @@ section.values {
                 font-size: 50px;
                 position: absolute;
             }
+
+            
         }
 
         .img.house {
@@ -209,6 +250,16 @@ section.values {
             font-size: 13px;
             line-height: 25px;
         }
+
+        // .img.house,
+        // .img.sun,
+        // .img.users,
+        // .img.lightbulb {
+        //     &:hover {
+        //         background-color: $color-theme;
+    
+        //         }
+        // }
     }
 }
 

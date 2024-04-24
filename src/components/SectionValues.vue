@@ -22,7 +22,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <h6 class="card-title p-1">Buildings</h6>
+                                <h6 class="card-title p-1">Great Services</h6>
                                 <hr class="m-auto p-1">
                                 <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
                             </div>
@@ -36,7 +36,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <h6 class="card-title p-1">Buildings</h6>
+                                <h6 class="card-title p-1">Highest Standards</h6>
                                 <hr class="m-auto p-1">
                                 <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
                             </div>
@@ -50,7 +50,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <h6 class="card-title p-1">Buildings</h6>
+                                <h6 class="card-title p-1">Professional Team</h6>
                                 <hr class="m-auto p-1">
                                 <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
                             </div>
@@ -64,7 +64,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <h6 class="card-title p-1">Buildings</h6>
+                                <h6 class="card-title p-1">Creative Solutions</h6>
                                 <hr class="m-auto p-1">
                                 <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
                             </div>

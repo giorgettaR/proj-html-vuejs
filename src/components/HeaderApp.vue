@@ -18,12 +18,13 @@ export default {
                     <img src="/construction_logo.png" alt="">
                 </div>
                 <ul class="menù col-auto d-flex align-items-center justify-content-between flex-nowrap">
-                    <li v-for="link in this.arrayMenù"
-                    class="ms-4"
-                    :class="{ buttonLight : link.isButton, active : link.isActive }"
-                    >
-    <!-- manca freccetta che indica il link attivo -->
-                    <a :href="link.href">{{ link.text }}</a> 
+                    <li v-for="link in this.arrayMenù" class="ms-4">    <!-- manca freccetta che indica il link attivo -->
+                        <a 
+                            :class="{ buttonLight : link.isButton, active : link.isActive }"
+                            :href="link.href"
+                        >
+                            {{ link.text }}
+                        </a> 
                     </li>
                 </ul>
             </div>
