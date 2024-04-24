@@ -16,7 +16,7 @@ export default {
         <div class="row pb-3">
             <div class="head col-7 m-auto d-flex flex-column align-items-center justify-content-between">
                 <h4>Specialists In Modern Construction</h4>
-                <hr class="divider small">
+                <div class="divider small"></div>
                 <p class="text-center">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
             </div>
         </div>

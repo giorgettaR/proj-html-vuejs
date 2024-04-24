@@ -14,8 +14,8 @@
         </div>
         <div class="row content">
             <div class="col-8 m-auto">
-                <div class="row">
-                    <div class="col-4">
+                <div class="row row-cols-3">
+                    <div class="col">
                         <div class="card">
                             <div class="card-img-top first m-auto"></div>
                             <div class="card-body">
@@ -26,7 +26,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col">
                         <div class="card">
                             <div class="card-img-top second m-auto"></div>
                             <div class="card-body">
@@ -37,7 +37,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col">
                         <div class="card">
                             <div class="card-img-top third m-auto"></div>
                             <div class="card-body">

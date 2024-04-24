@@ -8,29 +8,29 @@
         <div class="container">
             <div class="row content">
                 <div class="col-8 m-auto">
-                    <div class="row text-center">
-                        <div class="col-3">
+                    <div class="row row-cols-4 text-center">
+                        <div class="col">
                             <h1>
                                 <font-awesome-icon class="icon" :icon="['fas','suitcase']" />
                             </h1>
                             <h1> 3584</h1>
                             <h6>PLANNING APPLICATIONS</h6>
                         </div>
-                        <div class="col-3">
+                        <div class="col">
                             <h1>
                                 <font-awesome-icon class="icon" :icon="['far','building']" />
                             </h1>
                             <h1>896</h1>
                             <h6>COMPLETED PROJECTS</h6>
                         </div>
-                        <div class="col-3">
+                        <div class="col">
                             <h1>
                                 <font-awesome-icon class="icon" :icon="['fas','users']" />
                             </h1>
                             <h1>172</h1>
                             <h6>TRAINED PROFESSIONALS</h6>
                         </div>
-                        <div class="col-3">
+                        <div class="col">
                             <h1>
                                 <font-awesome-icon class="icon" :icon="['fas','globe']" />
                             </h1>

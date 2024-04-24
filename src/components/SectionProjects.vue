@@ -7,20 +7,20 @@
         <div class="row head pb-3">
             <div class="col-7 m-auto d-flex flex-column align-items-center justify-content-between">
                 <h4>Explore Recent Work</h4>
-                <hr class="divider small">
+                <div class="divider small"></div>
                 <p class="text-center">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
             </div>
         </div>
         <div class="row content">
             <div class="col-8 m-auto">
-                <div class="row">
-                    <div class="col-4">
+                <div class="row row-cols-3">
+                    <div class="col">
                         <div class="project first"></div>
                     </div>
-                    <div class="col-4">
+                    <div class="col">
                         <div class="project second"></div>
                     </div>
-                    <div class="col-4">
+                    <div class="col">
                         <div class="project third"></div>
                     </div>
                 </div>

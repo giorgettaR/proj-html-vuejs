@@ -8,16 +8,42 @@
     font-size: 18px;
 }
 
+button {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-align: inherit;
+    font: inherit;
+    border-radius: 0;
+}
+
 ul {
     list-style: none;
 }
 
 /* GENERAL SETTINGS */
 
+
+.buttonDark,
+.buttonLight {
+    padding: 0.5rem 1.5rem;
+}
+
+.buttonDark {
+    background-color: #333333;
+    color: white;
+}
+
+.buttonLight {
+    background-color: $color-theme;
+}
+
 .divider.small {
     border-top: 2px solid $color-theme;
     width: 250px;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .divider.big {

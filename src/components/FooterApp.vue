@@ -12,23 +12,23 @@ export default {
 <template>
 
 <footer>
-    <div class="container p-5">
+    <div class="container pt-5">
         <div class="row">
             <div class="col-12">
-                <div class="row">
-                    <div class="col-3 p-4">
+                <div class="row row-cols-4">
+                    <div class="col p-4">
                         <div class="logo">
                             <img src="/public/footer-logo.png" alt="">
                         </div>
                         <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo exercitationem est id temporibus nostrum porro repudiandae, nesciunt hic esse incidunt. Nobis, numquam perferendis aut nihil vitae placeat repellendus nemo dignissimos.</p>
-                        <button>LEARN MORE</button>
+                        <button class="buttonLight">LEARN MORE</button>
                     </div>
-                    <div class="col-3 p-4">
+                    <div class="col p-4">
                         <h6>LATEST TWEETS</h6>
                         <p class="text-white mt-4">{{ this.arrayMenù.tweet }}</p>
                         <img src="/public/tweet.jpeg" alt="">
                     </div>   
-                    <div class="col-3 p-4">
+                    <div class="col p-4">
                         <h6>CONTACT US TODAY</h6>
                         <ul class="mt-4">
                             <li>
@@ -61,7 +61,7 @@ export default {
                             </li>
                         </ul>
                     </div>   
-                    <div class="col-3 p-4">
+                    <div class="col p-4">
                         <h6>FIND US</h6>
                         
                     </div>                     

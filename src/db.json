@@ -33,7 +33,7 @@
     {
       "text": "GET QUOTE",
       "isActive": false,
-      "button": false,
+      "isButton": true,
       "href": ""
     }
   ],

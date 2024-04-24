@@ -7,14 +7,14 @@
         <div class="row head pb-3">
             <div class="col-7 m-auto d-flex flex-column align-items-center justify-content-between">
                 <h4>Our Core Values</h4>
-                <hr class="divider small">
+                <div class="divider small"></div>
                 <p class="text-center">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
             </div>
         </div>
         <div class="row content">
             <div class="col-8 m-auto">
-                <div class="row text-center">
-                    <div class="col-3">
+                <div class="row row-cols-4 text-center">
+                    <div class="col">
                         <div class="card">
                             <div class="card-body text-white">
                                 <div class="img house m-auto">
@@ -28,7 +28,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col">
                         <div class="card">
                             <div class="card-body text-white">
                                 <div class="img sun m-auto">
@@ -42,7 +42,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col">
                         <div class="card">
                             <div class="card-body text-white">
                                 <div class="img users m-auto">
@@ -56,7 +56,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col">
                         <div class="card">
                             <div class="card-body text-white">
                                 <div class="img lightbulb m-auto">

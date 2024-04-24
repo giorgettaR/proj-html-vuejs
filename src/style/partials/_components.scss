@@ -15,6 +15,10 @@ header {
     li.active{
         color: $color-theme;
     }
+
+    ul {
+        margin: 0;
+    }
 }
 
 // STYLE HERO
@@ -306,12 +310,24 @@ section.partners {
         }
     }
 }
+// STYLE SECTION FREEQUOTE
+
+section.freequote {
+    color: white;
+    background-image: url(/public/call-to-action.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+
+}
 
 // STYLE SECTION FOOTER
 
 footer {
     background-color: #1f1f1f;
     color: #696868;
+    border-top: 5px solid #333333;
 
     h6 {
     color: $color-theme;
