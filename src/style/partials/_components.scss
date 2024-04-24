@@ -250,16 +250,6 @@ section.values {
             font-size: 13px;
             line-height: 25px;
         }
-
-        // .img.house,
-        // .img.sun,
-        // .img.users,
-        // .img.lightbulb {
-        //     &:hover {
-        //         background-color: $color-theme;
-    
-        //         }
-        // }
     }
 }
 
@@ -287,7 +277,7 @@ section.ownersquotes {
     .curve {
         position: absolute;
         height: 250px;
-        background-color: white;
+        background-color: $bg-color-sections;
         z-index: 2;
         width: 120%;
         border-radius: 40%;
