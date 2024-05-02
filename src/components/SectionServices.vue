@@ -32,7 +32,7 @@ export default {
                                 <h4 class="card-title">Buildings</h4>
                                 <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
                             </div>
-                            <div class="hoverCard d-none">
+                            <div class="hoverCard">
                                 <div class="card-body h-100 d-flex flex-column align-items-center justify-content-around">
                                     <h6 class="card-title">ARTFULLY CRAFTED</h6>
                                     <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
@@ -50,7 +50,7 @@ export default {
                                 <h4 class="card-title">Renovate</h4>
                                 <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
                             </div>
-                            <div class="hoverCard d-none">
+                            <div class="hoverCard">
                                 <div class="card-body h-100 d-flex flex-column align-items-center justify-content-around">
                                     <h6 class="card-title">ARTFULLY CRAFTED</h6>
                                     <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
@@ -68,7 +68,7 @@ export default {
                                 <h4 class="card-title">Construct</h4>
                                 <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
                             </div>
-                            <div class="hoverCard d-none">
+                            <div class="hoverCard">
                                 <div class="card-body h-100 d-flex flex-column align-items-center justify-content-around">
                                     <h6 class="card-title">ARTFULLY CRAFTED</h6>
                                     <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
@@ -86,7 +86,7 @@ export default {
                                 <h4 class="card-title">Exclusive</h4>
                                 <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
                             </div>
-                            <div class="hoverCard d-none">
+                            <div class="hoverCard">
                                 <div class="card-body h-100 d-flex flex-column align-items-center justify-content-around">
                                     <h6 class="card-title">ARTFULLY CRAFTED</h6>
                                     <p class="card-text">Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>

@@ -86,8 +86,18 @@ section.services {
             line-height: 25px;
         }
 
+        .hoverCard {
+            opacity: 0;
+        }
+        
+        &:not(:hover) .hoverCard {
+            opacity: 0;
+            transition: 1s;
+        }
+
         &:hover .hoverCard {
-                display: block !important;
+            opacity: 1;
+            transition: 1s;
         }
     }
 
@@ -127,7 +137,7 @@ section.numbers {
         color: white;
     }
 
-    background-image: url(/public/numbers.jpg);
+    background-image: url(/numbers.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -161,13 +171,13 @@ section.numbers {
     }
 
     .project.first {
-        background-image: url(/public/project1.jpg);
+        background-image: url(/project1.jpg);
     }
     .project.second {
-        background-image: url(/public/project2.jpg);
+        background-image: url(/project2.jpg);
     }
     .project.third {
-        background-image: url(/public/project3.jpg);
+        background-image: url(/project3.jpg);
     }
 }
 
@@ -269,7 +279,7 @@ section.ownersquotes {
         font-size: 15px;
     }
 
-    background-image: url(/public/owners.jpg);
+    background-image: url(/owners.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -311,13 +321,13 @@ section.news {
             background-size: contain;
         }
         .card-img-top.first {
-            background-image: url(/public/blog1.jpg);
+            background-image: url(/blog1.jpg);
         }
         .card-img-top.second {
-            background-image: url(/public/blog2.jpg);
+            background-image: url(/blog2.jpg);
         }
         .card-img-top.third {
-            background-image: url(/public/blog3.jpg);
+            background-image: url(/blog3.jpg);
         }
     }
 }
@@ -335,19 +345,19 @@ section.partners {
         }
 
         .partner.first {
-            background-image: url(/public/home-logo1.png);
+            background-image: url(/home-logo1.png);
         }
         .partner.second {
-            background-image: url(/public/home-logo2.png);
+            background-image: url(/home-logo2.png);
         }
         .partner.third {
-            background-image: url(/public/home-logo3.png);
+            background-image: url(/home-logo3.png);
         }
         .partner.forth {
-            background-image: url(/public/home-logo4.png);
+            background-image: url(/home-logo4.png);
         }
         .partner.fifth {
-            background-image: url(/public/home-logo5.png);
+            background-image: url(/home-logo5.png);
         }
     }
 }
@@ -355,7 +365,7 @@ section.partners {
 
 section.freequote {
     color: white;
-    background-image: url(/public/call-to-action.jpg);
+    background-image: url(/call-to-action.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

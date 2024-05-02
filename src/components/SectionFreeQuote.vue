@@ -13,7 +13,7 @@
                             <p>Quis autem vel eum iure repredeirt qui in eavoluptate velit esse quam nihil molestiae conssequatur.</p>
                         </div>
                         <div class="col-4 d-flex flex-column justify-content-center text-center">
-                            <button class="">GET A FREE QUOTE</button>
+                            <button class="buttonLight">GET A FREE QUOTE</button>
                             <p class="mt-3">Only takes a few seconds!</p>
                         </div>
                     </div>

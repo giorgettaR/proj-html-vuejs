@@ -51,10 +51,12 @@ main {
 
     section.numbers,
     section.ownersquotes {
+        height: 500px;
+
         .container {
             height: 100%;
         }
-        height: 500px;
+
         .row.content {
             height: 170px;
             padding-top: 165px;

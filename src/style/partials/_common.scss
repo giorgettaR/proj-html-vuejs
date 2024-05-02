@@ -30,6 +30,16 @@ ul {
     padding: 0.5rem 1.5rem;
 }
 
+.buttonLight {
+    background-color: $color-theme;
+
+    &:hover {
+        background-color: #333333;
+        color: white;
+        transition: 0.3s;
+    }
+}
+
 .buttonDark {
     background-color: #333333;
     color: white;
@@ -37,16 +47,6 @@ ul {
     &:hover {
         background-color: $color-theme;
         color: black;
-        transition: 0.3s;
-    }
-}
-
-.buttonLight {
-    background-color: $color-theme;
-
-    &:hover {
-        background-color: #333333;
-        color: white;
         transition: 0.3s;
     }
 }

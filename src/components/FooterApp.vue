@@ -18,7 +18,7 @@ export default {
                 <div class="row row-cols-4">
                     <div class="col p-4">
                         <div class="logo">
-                            <img src="/public/footer-logo.png" alt="">
+                            <img src="/footer-logo.png" alt="">
                         </div>
                         <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo exercitationem est id temporibus nostrum porro repudiandae, nesciunt hic esse incidunt. Nobis, numquam perferendis aut nihil vitae placeat repellendus nemo dignissimos.</p>
                         <button class="buttonLight">LEARN MORE</button>
@@ -26,7 +26,7 @@ export default {
                     <div class="col p-4">
                         <h6>LATEST TWEETS</h6>
                         <p class="text-white mt-4">{{ this.arrayMenù.tweet }}</p>
-                        <img src="/public/tweet.jpeg" alt="">
+                        <img src="/tweet.jpeg" alt="">
                     </div>   
                     <div class="col p-4">
                         <h6>CONTACT US TODAY</h6>
