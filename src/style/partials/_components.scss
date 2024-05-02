@@ -7,16 +7,7 @@
 header {
     background-color: white;
 
-    a {
-        color: inherit;
-        text-decoration: none;
-    }
-
     a.active{
-        color: $color-theme;
-    }
-
-    li:hover {
         color: $color-theme;
     }
 
@@ -102,10 +93,7 @@ section.services {
     }
 
     .hoverCard {
-        background-color: $color-theme;
-        position: absolute;
-        width: 100%;
-        height: 100%;
+        @include hover-card;
         border-radius: 10px;
 
         button {
@@ -165,9 +153,43 @@ section.numbers {
 .projects {
     .project {
         aspect-ratio: 1/1;
+        position: relative;
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
+
+        .hoverCard {
+        @include hover-card;
+        color: white;
+            .icon {
+                color: $color-theme;
+                font-size: 15px;
+                border-radius: 50px;
+                background-color: white;
+                padding: 5px;
+            }
+
+            .icon.link {
+                margin-right: 1rem;
+            }
+            .title-small {
+                font-size: 16px;
+            }
+            p {
+                font-size: 12px;
+                margin: 0 !important;
+            }
+        }
+
+        &:not(:hover) .hoverCard {
+            opacity: 0;
+            transition: 1s;
+        }
+
+        &:hover .hoverCard {
+            opacity: 1;
+            transition: 1s;
+        }
     }
 
     .project.first {
@@ -309,16 +331,45 @@ section.news {
 
     .card {
         border: 0;
+        border-radius: 0px !important;
+
         h6.card-subtitle {
             font-size: 16px;
         }
         .card-img-top {
+            border-radius: 0px !important;
+            position: relative;
             border: 0;
             width: 100%;
             height: 170px;
             background-repeat: no-repeat;
             background-position: center;
-            background-size: contain;
+            background-size: cover;
+
+            .hoverCard {
+                color: white;
+                @include hover-card;
+    
+                .title-small {
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 12px;
+                    margin: 0 !important;
+                }
+    
+                .icon {
+                    color: $color-theme;
+                    font-size: 15px;
+                    border-radius: 50px;
+                    background-color: white;
+                    padding: 5px;
+                }
+    
+                .icon.link {
+                    margin-right: 1rem;
+                }
+            }
         }
         .card-img-top.first {
             background-image: url(/blog1.jpg);
@@ -328,6 +379,17 @@ section.news {
         }
         .card-img-top.third {
             background-image: url(/blog3.jpg);
+        }
+
+    
+        &:not(:hover) .hoverCard {
+            opacity: 0;
+            transition: 1s;
+        }
+
+        &:hover .hoverCard {
+            opacity: 1;
+            transition: 1s;
         }
     }
 }

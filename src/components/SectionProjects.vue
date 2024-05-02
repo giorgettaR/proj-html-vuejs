@@ -15,18 +15,63 @@
             <div class="col-8 m-auto">
                 <div class="row row-cols-3">
                     <div class="col">
-                        <div class="project first"></div>
+                        <div class="project first">
+                            <div class="hoverCard">
+                                <div class="card-body text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                                    <div class="icons d-flex flex-columns">
+                                        <div class="icon link">
+                                            <font-awesome-icon class="icon" :icon="['fas','link']" />
+                                        </div>
+                                        <div class="icon search">
+                                            <font-awesome-icon class="icon" :icon="['fas','search']" />
+                                        </div>
+                                    </div>
+                                    <div class="title-small">Florida Health Facility</div>
+                                    <p>Commercial</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col">
-                        <div class="project second"></div>
+                        <div class="project second">
+                            <div class="hoverCard">
+                                <div class="card-body text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                                    <div class="icons d-flex flex-columns">
+                                        <div class="icon link">
+                                            <font-awesome-icon class="icon" :icon="['fas','link']" />
+                                        </div>
+                                        <div class="icon search">
+                                            <font-awesome-icon class="icon" :icon="['fas','search']" />
+                                        </div>
+                                    </div>
+                                    <div class="title-small">Florida Health Facility</div>
+                                    <p>Commercial</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col">
-                        <div class="project third"></div>
+                        <div class="project third">
+                            <div class="hoverCard">
+                                <div class="card-body text-center h-100 d-flex flex-column align-items-center justify-content-center">
+                                    <div class="icons d-flex flex-columns">
+                                        <div class="icon link">
+                                            <font-awesome-icon class="icon" :icon="['fas','link']" />
+                                        </div>
+                                        <div class="icon search">
+                                            <font-awesome-icon class="icon" :icon="['fas','search']" />
+                                        </div>
+                                    </div>
+                                    <div class="title-small">Florida Health Facility</div>
+                                    <p>Commercial</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row divider big">
                     <hr class="col-4 left">
-                    <p class="col-4 text-center">View All Projects</p>
+                    <a class="col-4 text-center">View All Projects</a>
                     <hr class="col-4 right">
                 </div>
             </div>
